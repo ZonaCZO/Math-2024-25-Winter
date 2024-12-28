@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "math-2024-25-winter"
+version = "0.1.0"
+description = "Math project"
+authors = ["Math"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+jupyter = "^1.0.0"
+jupytext = "^1.16.4"
+sympy = "^1.13.2"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+plotly = "^5.24.1"
+mkdocs = "^1.6.1"
+mkdocs-material = "^9.5.48"
+mkdocs-macros-plugin = "^1.3.7"
+pymdown-extensions = "^10.12"
+mkdocstrings = {extras = ["python"], version = "^0.27.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
